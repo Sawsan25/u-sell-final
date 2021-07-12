@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+
+* {
+	font-family: 'Rubik', Helvetica, Arial, serif;
+	// font-family: 'poppins';"Rubik", Helvetica, Arial, serif;
+	color: $text;
+	font-size: 14px;
+}
+
+.us_display-xxl {
+	@include headers;
+	font-size: 45px;
+}
+
+.us_display-xl {
+	@include headers;
+	font-size: 25px;
+	letter-spacing: 1.54px;
+}
+
+.us_display-l {
+	@include headers;
+	font-size: 24px;
+	letter-spacing: 0.79px;
+}
+
+.us_display-m {
+	@include headers;
+	font-size: 18px;
+	letter-spacing: 0.59px;
+}
+
+.us_card-header-lg {
+	@include headers;
+	font-size: 20px;
+	letter-spacing: 0.66px;
+}
+
+.us_card-header-sm {
+	@include headers;
+	font-size: 14px;
+	letter-spacing: 0.46px;
+}

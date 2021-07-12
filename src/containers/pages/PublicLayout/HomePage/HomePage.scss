@@ -1,0 +1,32 @@
+@import '../../../../assets/usellAssets/styles/variables.scss';
+
+.tk_hp {
+  &-image-slider {
+    padding-top: 47px;
+  }
+  &-news {
+    margin-top: -153px;
+  }
+  &-last-added {
+    margin-top: 100px;
+  }
+  &-campaigns {
+    position: relative;
+    top: -180px;
+    right: 200px;
+    width: 1400px;
+    background-color: $primary-light;
+    padding: 250px 0 75px;
+    @media (max-width: 1420px) {
+      width: 116%;
+      right: 8%;
+    }
+    @media (max-width: 1199px) {
+      width: calc(100% + 40px);
+      right: 20px;
+      > .tk_cards-container {
+        padding: 0 20px;
+      }
+    }
+  }
+}

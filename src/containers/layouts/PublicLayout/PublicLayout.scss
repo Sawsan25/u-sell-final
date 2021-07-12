@@ -1,0 +1,23 @@
+// @import '../../../../assets/styles/usellAssets/variables.scss';
+@import '../../../assets/usellAssets/styles/variables.scss';
+
+.us_public-layout {
+  font-weight: 600;
+  height: 100vh;
+  background-color:#fff;
+  margin-top: 110px;
+  button {
+    text-transform: uppercase;
+  }
+  .us_container {
+    width: 1000px;
+    // margin: 156px auto 0;
+    margin-top: 156px;
+    // background-color: black;
+    height: 100%;
+    @media (max-width: 1199px) {
+      width: auto;
+      margin: 90px 20px 0;
+    }
+  }
+}

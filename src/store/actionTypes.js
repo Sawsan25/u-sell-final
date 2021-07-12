@@ -1,0 +1,7 @@
+// ALERTS
+export const SHOW_ALERT = "SHOW_ALERT";
+export const HIDE_ALERT = "HIDE_ALERT";
+
+// PUBLIC
+// HOMEPAGE ... CAMPS -> CAMPAIGNS
+// export const GET_TK_HP_CAMPS_REQUEST = 'GET_TK_HP_CAMPS_REQUEST';

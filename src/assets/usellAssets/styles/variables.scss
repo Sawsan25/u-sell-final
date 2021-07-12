@@ -1,0 +1,44 @@
+// colors
+$primary: #e43569;
+$grey: #F2F4F4;
+$primary-light: #f6f6fa;
+$secondary: #59c6f2;
+$text-head: #041b2f;
+$text: #475F7B;
+$light: #f4f3f3;
+
+$bg-yellow: #edb035;
+$bg-green: #6fca85;
+$bg-red: #dc4833;
+$bg-grey: #969fa6;
+$bg-purple: #262365;
+$bg-light-blue: #7ac4d4;
+$bg-dark-blue: #07205a;
+$bg-indicator: #cfd5da;
+
+$text-yellow: #fcedcf;
+$text-green: #bdfacc;
+$text-red: #ffc2b9;
+$text-grey: #e2e1e1;
+$text-purple: #7573a1;
+$text-blue: #e0faff;
+$text-black: #313131;
+$text-white: #ffffff;
+
+$default-border-color: #ecf0f4;
+$accordion-border-color: #eceaf5;
+$custom-input-border-color: #1e189e;
+$input-error-border-color: #dc3545;
+
+$default-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+$accordion-box-shadow: 0 3px 6px 0 rgba(109, 120, 141, 0.13);
+$input-box-shadow: 0 0 0 0.2rem rgba(9, 7, 47, 0.25);
+$input-error-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+
+$default-transition: 0.15s all linear;
+
+@mixin headers {
+  font-weight: 600;
+  color: $text-head;
+  text-transform: uppercase;
+}

@@ -1,0 +1,50 @@
+@import "./variables.scss";
+@import "./typography.scss";
+@import "~bootstrap/scss/bootstrap";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ck-z-default: 100;
+  --ck-z-modal: calc( var(--ck-z-default) + 999 );
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $primary-light;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $text;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666c72;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-dark {
+  color: $text-head;
+}
+
+.bg-img {
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.form-label {
+  text-transform: capitalize;
+}
